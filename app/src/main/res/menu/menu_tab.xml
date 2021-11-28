@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:title="Sports"
+       android:id="@+id/sports" />
+    <item android:title="Entertainment"
+        android:id="@+id/entertainment" />
+    <item android:title="Business"
+        android:id="@+id/business" />
+    <item android:title="General"
+        android:id="@+id/general" />
+    <item
+        android:id="@+id/country"
+        android:title="Country">
+
+        <menu>
+
+            <item
+                android:id="@+id/india"
+                android:title="India" />
+            <item
+                android:id="@+id/usa"
+                android:title="America" />
+            <item
+                android:id="@+id/china"
+                android:title="China" />
+            <item
+                android:id="@+id/france"
+                android:title="France" />
+            <item
+                android:id="@+id/germany"
+                android:title="Germany" />
+
+        </menu>
+
+    </item>
+
+
+</menu>
